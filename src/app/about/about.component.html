@@ -1,0 +1,19 @@
+<p>
+  This is what I'm all about. <a href="" (click)="sendMeHome()"><strong>Take me back.</strong></a>
+</p>
+
+<div class="container color-dark">
+    <div class="col">
+      <p>Your bucket list ({{ itemCount }}) </p>
+    </div>
+  </div>
+  
+  <div class="container color-light">
+    <div class="col">
+      <p class="life-container" *ngFor="let goal of goals; let i = index" (click)="removeItem(i)" >
+       
+        {{ goal }}
+  
+      </p>
+    </div>
+  </div> 

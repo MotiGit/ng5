@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
+body{
+    background-color: cornflowerblue;
+    padding: 3em;
+    font-family:  'Inconsolata', monospace;
+    color: lightgoldenrodyellow;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+ul li a{
+    font-size: 1.5em;
+}
+
+a{
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    padding: .5em;
+    
+}
+
+a:hover{
+    opacity: 0.8;
+}
